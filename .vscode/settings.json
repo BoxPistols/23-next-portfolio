@@ -1,0 +1,9 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#023339",
+        "titleBar.activeBackground": "#024850",
+        "titleBar.activeForeground": "#EDFCFE"
+    },
+    "github.copilot-labs.showBrushesLenses": true,
+    "github.copilot-labs.showTestGenerationLenses": true
+}
