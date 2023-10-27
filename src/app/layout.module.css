@@ -1,0 +1,12 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: ghostwhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  flex-grow: 1;
+  min-height: 70vh;
+}
