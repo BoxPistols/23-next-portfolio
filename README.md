@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js 13
 
-## Getting Started
+## 概要
 
-First, run the development server:
+Next.jsとは、サーバーサイドレンダリングと自動コード分割を可能にするReactフレームワークであり、Reactアプリケーションを構築およびスケーリングすることが容易になります。ホットコードリローディング、自動ルーティング、最適化されたパフォーマンスなどの機能により、簡素化された開発体験を提供します。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- SSR: Next.js ではサーバー側レンダリングが可能になり、パフォーマンスと SEO を向上させることができます。
+- 自動コード分割: Next.js はコードを自動的に小さなチャンクに分割するため、ページの読み込み時間を短縮できます。
+- ホットコードのリロード: コードに加えられた変更はブラウザに自動的に反映されるため、開発がより迅速かつ効率的になります。
+- 自動ルーティング: Next.js はファイル システムに基づいてルートを自動的に生成し、ページの整理と移動を容易にします。
+- TypeScript のサポート: Next.js には TypeScript のサポートが組み込まれており、コードの品質と保守性を向上させることができます。
+- 大規模でアクティブなコミュニティ: Next.js には大規模でアクティブなコミュニティがあり、開発に役立つリソースやプラグインが多数あります
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[Link / About Next.js](./AboutNext.md)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### バージョン13の特徴
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- サーバーレス関数のサポート: Next.js 13では、サーバーレス関数をサポートしています。これにより、APIエンドポイントを簡単に作成できます。
+- イメージコンポーネント: Next.js 13では、イメージコンポーネントが導入されました。これにより、画像の最適化や、画像の遅延読み込みなどが簡単に行えるようになりました。
+- パフォーマンスの改善: Next.js 13では、パフォーマンスが改善されています。特に、初回読み込みの速度が向上しています。
+- Web Vitalsのサポート: Next.js 13では、Web Vitalsをサポートしています。これにより、ページのパフォーマンスを測定し、改善することができます。
+- セキュリティの改善: Next.js 13では、セキュリティが改善されています。特に、XSS攻撃に対する防御が強化されています。
