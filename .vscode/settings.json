@@ -1,9 +1,19 @@
 {
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#023339",
-        "titleBar.activeBackground": "#024850",
-        "titleBar.activeForeground": "#EDFCFE"
-    },
-    "github.copilot-labs.showBrushesLenses": true,
-    "github.copilot-labs.showTestGenerationLenses": true
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#023339",
+    "titleBar.activeBackground": "#024850",
+    "titleBar.activeForeground": "#EDFCFE"
+  },
+  "github.copilot-labs.showBrushesLenses": true,
+  "github.copilot-labs.showTestGenerationLenses": true,
+  "editor.formatOnSave": true,
+  "autoimport.semicolon": false,
+  "autoimport.useSemiColon": false,
+  "prettier.semi": false,
+  "javascript.format.insertSpaceAfterSemicolonInForStatements": false,
+  "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "javascript.preferences.quoteStyle": "single"
 }
