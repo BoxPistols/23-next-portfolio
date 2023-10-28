@@ -29,6 +29,7 @@ body {
   padding: 3vh 4vw;
   line-height: 1.75;
   background-color: var(--color-bg);
+  color: #333;
 }
 
 a {

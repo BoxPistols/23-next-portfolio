@@ -1,6 +1,6 @@
 ---
-id: 1
-title: 1つめの記事
+id: 2
+title: 2つめの記事
 date: 2022-01-01
 image: ""
 excerpt: ""
